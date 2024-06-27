@@ -1,0 +1,118 @@
+.top-header-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    align-items: center;
+
+    margin: 0.5rem 1rem;
+    width: 100%;
+}
+
+.top-header-logo {
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-header-logo img {
+    width: 45px !important;
+    width: 100%;
+}
+
+.header-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.51rem;
+}
+
+.header-buttons-container button {
+    font-family: var(--project-font);
+    border-radius: 100px;
+    padding: 6px 12px;
+    border: 1px solid var(--primary);
+}
+
+.header-buttons-container button:first-child {
+    color: var(--primary);
+    background-color: #fff;
+    font-weight: 400px;
+}
+
+.header-buttons-container button:last-child {
+    color: #fff;
+    background-color: var(--primary);
+    font-weight: 500;
+}
+
+.burger-container {
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.burger-icon {
+    font-size: 35px;
+    margin-right: 1rem;
+}
+
+.header-navigation-container {
+    display: none;
+}
+
+@media (min-width: 769px) {
+
+    .top-header-container {
+        grid-template-columns: 1fr 5fr 2.5fr;
+    }
+
+    .top-header-logo img {
+        width: 55px !important;
+    }
+
+    .header-navigation-container {
+        display: block;
+    }
+
+    .header-navigation-container ul {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        justify-items: flex-start;
+    }
+
+    .header-navigation-container ul li a {
+        text-decoration: none;
+        color: unset;
+    }
+
+    .header-navigation-container ul li:first-child {
+        font-size: 1rem;
+        font-weight: 600px;
+        color: var(--primary);
+    }
+
+    .header-navigation-container ul li:not(:first-child) {
+        font-size: 1rem;
+        font-weight: 500px;
+        color: var(--black-2);
+    }
+
+    .header-buttons-container {
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+
+    .header-buttons-container button {
+        font-size: 110%;
+        padding: 6px 20px;
+    }
+
+    .burger-container {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header-navigation-container ul {
+        width: 75%;
+    }
+}

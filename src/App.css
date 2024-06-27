@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "poppins regular";
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+.body{
+  font-family: var(--project-font);
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-main-container{
+  max-width: 1440px;
+  width: 100%;
+}
+
