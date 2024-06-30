@@ -8,11 +8,9 @@ function Header() {
     const sideBarMenu = useRef()
     let hamburgerMenuHandler = (param) => {
         setIsMenuOpen(param);
-        // console.log(sideBarMenu.current.style.left = "0px")
     }
 
     useEffect(() => {
-        console.log(isMenuOpen)
         if (!isMenuOpen) {
             sideBarMenu.current.style.left = "-254.8px";
         } else {

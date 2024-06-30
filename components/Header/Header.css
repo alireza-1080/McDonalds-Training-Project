@@ -96,6 +96,7 @@
 @media (min-width: 769px) {
 
     .top-header-container {
+        margin-top: 1.2rem;
         grid-template-columns: 1fr 5fr 2.5fr;
     }
 
@@ -137,6 +138,7 @@
     .header-buttons-container button {
         font-size: 110%;
         padding: 6px 20px;
+        cursor: pointer;
     }
 
     .burger-container {
@@ -149,6 +151,10 @@
 }
 
 @media (min-width: 1025px) {
+    .top-header-container {
+        margin-top: 2rem;
+    }
+
     .header-navigation-container ul {
         width: 75%;
     }
