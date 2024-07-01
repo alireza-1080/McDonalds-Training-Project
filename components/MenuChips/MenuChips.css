@@ -1,0 +1,38 @@
+.chips-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    
+    width: fit-content;
+    padding: 8px 20px;
+    border-radius: 100px;
+    background-color: var(--grey-3);
+    border: 1px solid var(--grey-2);
+}
+
+.chips-container.active {
+    background-color: var(--secondary);
+}
+
+.chips-child{
+    font-size: 20px;
+    color: var(--black-2);
+}
+
+.chips-child.active {
+    font-size: 24px;
+    color: var(--black-1);
+}
+
+.chips-container h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    width: max-content;
+}
+
+.chips-container h6.active{
+    font-weight: 600;
+}

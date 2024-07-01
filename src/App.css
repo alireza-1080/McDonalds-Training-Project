@@ -10,6 +10,8 @@
   display: grid;
   grid-template-columns: minmax(320px, 1440px);
   justify-content: center;
+
+  margin-bottom: 3rem;
 }
 
 .project-main-container{
