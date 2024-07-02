@@ -27,6 +27,7 @@ function MenuItem({ src, title, details, price, sale }) {
           </div>
         </div>
       </div>
+      {sale && <img src="./images/off-badge.png" alt="Sale" className="sale-badge" />}
     </div>
   )
 }
