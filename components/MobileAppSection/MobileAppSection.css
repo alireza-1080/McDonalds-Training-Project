@@ -58,57 +58,29 @@
 @media (min-width: 770px) {
     .mobile-app-section-container{
         width: 95%;
-        margin-top: 3rem;
-        background-color: var(--grey-2);
+        margin-top: 5rem;
         padding: 10px 10px 0 0;
         border-top-left-radius: 0;
         border-top-right-radius:  230px;
         border-bottom-right-radius:  230px;
     
-        display: grid;
         grid-template-columns: repeat(2, auto);
-        justify-items: center;
         gap: 0;
     }
     
     .mobile-app-details-section{
-        display: grid;
-        grid-template-columns: 1fr;
         row-gap: 0.5rem;
         justify-self: center;
-
         order: 2;
     }
     
-    .mobile-app-details-section > h3 {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 30px;
-        text-align: center;
-        color: var(--grey);
-    }
-    
-    .mobile-app-details-section > h4 {
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 500;
-        color: var(--primary);
-        text-align: center;
-    }
-    
     .mobile-app-details-section > h5 {
-        font-size: 12px;
-        line-height: 24px;
-        font-weight: 400;
-        text-align: center;
-        color: var(--black-1);
         max-width: 600px;
     }
     
     .mobile-app-download-buttons-section {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        justify-items: center;
         gap: 0px;
         width: 405px;
         margin-bottom: 10px;
@@ -117,11 +89,9 @@
 
     .mobile-app-image-section {
         order: 1;
-        align-self: self-end;
     }
     
     .mobile-app-image-section img {
         width: 220px;
-        margin-bottom: -1.8px;
     }
 }

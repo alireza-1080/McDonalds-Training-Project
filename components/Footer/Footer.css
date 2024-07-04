@@ -1,0 +1,145 @@
+.footer-container {
+    width: 100%;
+    background-color: #fffde6;
+    padding: 3rem 5px;
+    margin-top: 4rem;
+}
+
+.footer-details-section {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.footer-useful-links-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+
+    width: 310px;
+}
+
+.footer-useful-links-section h3 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--black-1);
+    text-decoration: underline;
+}
+
+.footer-useful-links-section ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.footer-useful-links-section ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 300;
+    color: var(--black-2);
+}
+
+.footer-opening-hours-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+
+    width: 310px;
+}
+
+.footer-opening-hours-section h3 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--black-1);
+    text-decoration: underline;
+}
+
+.footer-opening-hours-section ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.footer-opening-hours-section ul li h6 {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 300;
+    color: var(--black-2);
+}
+
+.footer-media-section {
+    margin-top: 3rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.footer-macdonald-section {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    gap: 10px;
+
+    width: 310px;
+}
+
+.footer-macdonald-section img{
+    justify-self: flex-end;
+}
+
+.footer-macdonald-section h4{
+    justify-self: flex-start;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.footer-media-logos-section {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 20px;
+
+    width: 310px;
+}
+
+.footer-media-logos-section .media-icon {
+    font-size: 24px;
+    color: var(--grey);
+}
+
+@media (min-width: 686px) {
+    .footer-container {
+        padding: 3rem 2rem;
+    }
+    
+    .footer-details-section {
+        grid-template-columns: repeat(2, auto);
+        gap: 0;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 936px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .footer-details-section {
+        order: 2;
+    }
+
+    .footer-media-section {
+        order: 1;
+        justify-self: flex-start;
+    }
+}

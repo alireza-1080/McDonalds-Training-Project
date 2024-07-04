@@ -4,6 +4,7 @@ import HeaderContentSection from '../components/HeaderContentSection/HeaderConte
 import MenuSection from '../components/MenuSection/MenuSection';
 import SaleOffSection from '../components/SaleOffSection/SaleOffSection';
 import MobileAppSection from '../components/MobileAppSection/MobileAppSection';
+import Footer from '../components/Footer/Footer';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <MenuSection />
       <SaleOffSection />
       <MobileAppSection />
+      <Footer />
     </div>
   )
 }
