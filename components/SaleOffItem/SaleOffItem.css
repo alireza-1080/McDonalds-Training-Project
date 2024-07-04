@@ -1,0 +1,202 @@
+.sale-off-item-container{
+    width: 266px;
+    height: 320px;
+    background-color: var(--grey-2);
+    border-radius: 20px;
+    padding: 2rem 0 2rem 1.5rem;
+    transition: all 300ms ease-in-out;
+
+    position: relative;
+}
+
+.sale-off-item-container:hover {
+    transform: scale(1.1);
+    background-color: var(--primary);
+}
+
+.sale-off-fast-food-part-container {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.sale-off-fast-food-part-container h4{
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--black-1);
+    width: fit-content;
+}
+
+.sale-off-item-container:hover .sale-off-fast-food-part-container h4 {
+    color: #fff;
+}
+
+.sale-off-fast-food-part-container h5{
+    flex: 3;
+    height: 1px;
+    background-color: var(--black-1);
+    display: inline-block;
+}
+
+.sale-off-item-container:hover .sale-off-fast-food-part-container h5{
+    background-color: #fff;
+}
+
+.sale-off-details-container {
+    margin-top: 1rem;
+}
+
+.sale-off-details-container h2 {
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sale-off-item-container:hover .sale-off-details-container h2 {
+    color: var(--secondary);
+}
+
+.sale-off-details-container h3 {
+    margin-top: 1rem;
+    color: var(--black-1);
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+
+.sale-off-item-container:hover .sale-off-details-container h3{
+    color: #fff;
+}
+
+.sale-off-prices-container {
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sale-off-prices-container h6 {
+    color: var(--grey);
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sale-off-item-container:hover .sale-off-prices-container h6{
+    color: #fff;
+}
+
+.sale-off-prices-container h5 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sale-off-item-container:hover .sale-off-prices-container h5{
+    color: var(--secondary);
+}
+
+.sale-off-item-container > img {
+    position: absolute;
+    transform: scale(0.8);
+    right: -21px;
+    bottom: 20px;
+}
+
+.sale-off-item-container:nth-child(3) > img {
+    bottom: 30px;
+}
+
+.sale-off-order-button-container {
+    position: absolute;
+    bottom: 2rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: var(--black-2);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sale-off-item-container:hover .sale-off-order-button-container{
+    background-color: #fff;
+}
+
+.sale-off-order-button-container .bag-icon{
+    font-size:16px;
+    font-weight: 600;
+}
+
+.sale-off-item-container:hover .sale-off-order-button-container .bag-icon{
+    color: var(--black-1);
+}
+
+.sale-off-order-button-container h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sale-off-item-container:hover .sale-off-order-button-container h4 {
+    color: var(--black-1);
+}
+
+@media (min-width: 380px) {
+    .sale-off-item-container{
+        width: 370px;
+        height: 335px;
+    }
+    
+    .sale-off-fast-food-part-container h4{
+        font-size: 16px;
+    }
+    
+    .sale-off-details-container h2 {
+        font-size: 27px;
+    }
+    
+    .sale-off-item-container:hover .sale-off-details-container h2 {
+        color: var(--secondary);
+    }
+    
+    .sale-off-details-container h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .sale-off-prices-container {
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+    
+    .sale-off-prices-container h6 {
+        font-size: 16px;
+    }
+    
+    .sale-off-prices-container h5 {
+        font-size: 24px;
+    }
+    
+    .sale-off-item-container > img {
+        transform: unset;
+        right: 0;
+        bottom: 20px;
+    }
+    
+    .sale-off-order-button-container {
+        bottom: 3rem;
+        left: 1.5rem;
+    }
+    
+    .sale-off-order-button-container .bag-icon{
+        font-size:20px;
+    }
+    
+    .sale-off-order-button-container h4 {
+        font-size: 16px;
+    }
+}
