@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import HeaderContentSection from '../components/HeaderContentSection/HeaderContentSection';
 import MenuSection from '../components/MenuSection/MenuSection';
 import SaleOffSection from '../components/SaleOffSection/SaleOffSection';
+import MobileAppSection from '../components/MobileAppSection/MobileAppSection';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <HeaderContentSection />
       <MenuSection />
       <SaleOffSection />
+      <MobileAppSection />
     </div>
   )
 }

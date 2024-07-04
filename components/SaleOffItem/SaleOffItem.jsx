@@ -3,10 +3,7 @@ import React from 'react'
 import { FiShoppingBag } from "react-icons/fi";
 
 function SaleOffItem({ title, details, mainPrice, discountedPrice, src }) {
-    console.log(title);
-    console.log(details);
-    console.log(mainPrice);
-    console.log(discountedPrice);
+
     return (
         <div className="sale-off-item-container">
             <div className="sale-off-fast-food-part-container">
