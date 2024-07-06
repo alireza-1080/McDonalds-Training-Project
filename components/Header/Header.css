@@ -69,6 +69,7 @@
     border-right: 2px solid var(--black-2);
     padding: 3rem 5rem;
     transition: left 250ms ease-in-out;
+    z-index: 200;
 }
 
 .side-menu-container ul {
