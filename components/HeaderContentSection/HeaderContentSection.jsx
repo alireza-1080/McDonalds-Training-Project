@@ -11,7 +11,7 @@ function HeaderContentSection() {
                 </div>
                 <div className="header-content-section-picture-container">
                     <div className="header-content-image-container">
-                        <img src="./public/images/McD_burger.png" alt="Cheese Beef Burger" />
+                        <img src="./images/mcD_burger.png" alt="Cheese Beef Burger" />
                         <div className="header-content-section-delivery-container">
                             <div className="header-content-section-delivery-top-part">
                                 <RxLapTimer className="timer-icon"/>
