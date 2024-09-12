@@ -60,7 +60,7 @@
 }
 
 .side-menu-container {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: -254.8px;
     width: fit-content;
